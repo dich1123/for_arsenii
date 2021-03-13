@@ -16,3 +16,9 @@ git commit -m "Your commit message"  - добавить коммит в теку
 
 git log  - показать историю гита
 
+git remote -v  - показать список удаленных репо
+git remote add origin link_to_repo  - добавить удаленный репозиторий,
+    назвать его локально origin, поставить в соответствие ссылку link_to_repo
+
+git push origin master   - отправить коммиты из текущей ветки на
+    удаленный репо, с названием origin, в ветку master(на удаленном репо)
