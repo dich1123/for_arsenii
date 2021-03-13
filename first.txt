@@ -22,3 +22,6 @@ git remote add origin link_to_repo  - добавить удаленный реп
 
 git push origin master   - отправить коммиты из текущей ветки на
     удаленный репо, с названием origin, в ветку master(на удаленном репо)
+
+git pull origin master  - стянуть изменения из удаленного репо origin
+    из ветки master
