@@ -4,8 +4,8 @@ import logging.config
 # logging.error('HELLO ERTA')
 # logging.warning('BEWARE OF ERTA!')
 
-logger123 = logging.getLogger('kek')  # это инициализация логера.
-# аргумент - это строка(имя логера)
+logger = logging.getLogger('kek')  # это инициализация логера.
+# аргумент - это строка(имя лоqгера)
 logger.level = 40  # задать нашему логеру уровень 40 (ERROR)
 logger2 = logging.getLogger('kek')  # когда мы создали логер(по имени),
 # то сколько б раз мы не вызывали getLogger с этим именем, у
@@ -15,7 +15,7 @@ logger.setLevel('DEBUG')  # задать нашему логеру уровен�
 
 
 def create_list():
-    data = [x for x in range(15)]
+    data = [x for x in range(10)]
     logger.debug('List created')
     return data
 
@@ -32,7 +32,7 @@ sett = {
       "brief": {
         "class": "logging.Formatter",
         "datefmt": "%I:%M:%S",
-        "format": "%(l2evelname)-8s; %(name)-15s; %(message)s"
+        "format": "%(levelname)-8s; %(name)-15s; %(message)s"
       },
       "single-line": {
         "class": "logging.Formatter",
@@ -62,7 +62,7 @@ sett = {
     "handlers": {
       "console": {
         "level": "DEBUG",
-        "class": "logging.StreamHandler123",
+        "class": "logging.StreamHandler",
         "formatter": "single-line",
         "stream" : "ext://sys.stdout"
       },

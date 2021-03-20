@@ -30,3 +30,7 @@ git branch  -  список веток
 git branch newbranch  -  создать новую ветку по имени newbranch(отбренчеваться)
 git checkout newbranch  - перейти на ветку newbranch
 git checkout -b newbranch  - создать новую ветку newbranch и перейти на новую ветку newbranch
+
+Для того, чтоб объединить данные из двух веток, их нужно слить(merge).
+Для того чтоб сделать запрос на слияние делается pull request(github)/
+merge request(gitlab).
