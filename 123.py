@@ -5,7 +5,7 @@ import logging.config
 # logging.warning('BEWARE OF ERTA!')
 
 logger = logging.getLogger('kek')  # это инициализация логера.
-# аргумент - это строка(имя логера)
+# аргумент - это строка(имя лоqгера)
 logger.level = 40  # задать нашему логеру уровень 40 (ERROR)
 logger2 = logging.getLogger('kek')  # когда мы создали логер(по имени),
 # то сколько б раз мы не вызывали getLogger с этим именем, у
