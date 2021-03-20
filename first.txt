@@ -25,3 +25,7 @@ git push origin master   - отправить коммиты из текущей
 
 git pull origin master  - стянуть изменения из удаленного репо origin
     из ветки master
+
+git branch  -  список веток
+git branch newbranch  -  создать новую ветку по имени newbranch(отбренчеваться)
+git checkout newbranch  - перейти на ветку newbranch
