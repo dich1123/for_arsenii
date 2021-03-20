@@ -29,3 +29,4 @@ git pull origin master  - стянуть изменения из удаленн�
 git branch  -  список веток
 git branch newbranch  -  создать новую ветку по имени newbranch(отбренчеваться)
 git checkout newbranch  - перейти на ветку newbranch
+git checkout -b newbranch  - создать новую ветку newbranch и перейти на новую ветку newbranch
