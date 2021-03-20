@@ -34,3 +34,15 @@ git checkout -b newbranch  - создать новую ветку newbranch и �
 Для того, чтоб объединить данные из двух веток, их нужно слить(merge).
 Для того чтоб сделать запрос на слияние делается pull request(github)/
 merge request(gitlab).
+
+git merge some_branch  - слить изменения из ветки some_branch в текущую ветку(созд комит)
+git rebase some_branch   - сделать ребейс по отношению к some_branch с текущей веткой
+
+########### HOW RESOLVE CONFLICTS(in pull request) ############
+1) git merge / git rebase
+2) resolve conflicts(with hands)
+3) git merge --continue  (git rebase --continue)
+4) нажать q или ctrl+c
+5) git pull origin current_branch
+6) git push origin current_branch
+########### HOW RESOLVE CONFLICTS(in pull request) ############
